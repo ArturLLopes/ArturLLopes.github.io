@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artur Lages Lopes | Portfolio</title>
+    <meta name="description"
+        content="Portfólio do desenvolvedor Artur Lages Lopes compartlhando conhecimentos e projetos">
+
+    <link rel="shortcut icon" href="./assets/img/logo/favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/componentes/_media.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="index.html">
+
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+
+                        <span class="menu__text" data-lang="menu__projetos"></span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+
+                        <span class="menu__text" data-lang="menu__sobre"></span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#contato">
+
+                        <span class="menu__text" data-lang="menu__contato"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__brand">
+            <img class="brand__logo" src="./assets/img/logo/logo.png" alt="">
+            <a href="./index.html"></a>
+        </div>
+        <div class="header__toggle">
+            <button id="language-btn" class="btn__lang">EN</button>
+            <i id="toggleTheme" class="bi bi-sun-fill"></i>
+        </div>
+
+
+    </header>
+    <nav class="nav--mobile">
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class="menu__link active" href="./index.html">
+                    <i class="menu__icon bi bi-house"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#projetos">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text" data-lang="menu__projetos"></span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#sobre">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text" data-lang="menu__sobre"></span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#contato">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text" data-lang="menu__contato"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main__content1">
+            <h1 data-lang="main__titleH1"></h1>
+            <h1 id="main__titleB" data-lang="main__titleB"></h1>
+            <p data-lang="main__titleP"></p>
+        </div>
+        <ul class="menu--social">
+            <li>
+                <a class="menu__link" href="https://github.com/ArturLLopes">
+                    <i class="menu__icon bi bi-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="menu__icon bi bi-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+        <a href="#projetos">
+            <button class="btn btn--primary">
+                <span data-lang="btn__projects"></span>
+                <i class="bi bi-arrow-down-right"></i>
+            </button>
+        </a>
+    </main>
+
+    <!-- SKILLS -->
+
+    <section class="skills">
+        <h2 data-lang="skills__titleH2"></h2>
+        <ul class="skills__list">
+            <li class="skills__item">
+                <img class="skills__logo" src="./assets/img/tecnologias/html.png" alt="html" title="html">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="./assets/img/tecnologias/css.png" alt="css" title="css">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="./assets/img/tecnologias/js.png" alt="javascripts" title="javascripts">
+            </li>
+            <li class="skills__item">
+                <img class="skills__logo" src="./assets/img/tecnologias/bootstrap.png" alt="bootstrap"
+                    title="bootstrap">
+            </li>
+        </ul>
+    </section>
+
+    <!-- PROJETOS -->
+
+
+    <section id="projetos" class="projects">
+        <h2 data-lang="menu__projetos">Projetos</h2>
+        <div class="projects__container">
+            <div class="projects__card">
+                <img class="card__cover" src="/assets/img/projetos/siteDeBuscas.png" alt="site de buscas"
+                    title="site de buscas">
+                <div class="card__body">
+                    <h3 class="card__title" data-lang="card__titleH3">Site de Buscas tema Olimpíada</h3>
+                    <p class="card__description" data-lang="card__descriptionP">Busca de Atletas do Brasil</p>
+                    <ul class="card__list">
+                        <li class="card__item" data-lang="card__item1_1">Digite o nome do atleta;</li>
+                        <li class="card__item" data-lang="card__item1_2">Clique em "Buscar";</li>
+                        <li class="card__item" data-lang="card__item1_3">Explore os resultados!</li>
+                    </ul>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <img class="skills__logo" src="./assets/img/tecnologias/html.png" alt="html" title="html">
+                        </li>
+                        <li class="skills__item">
+                            <img class="skills__logo" src="./assets/img/tecnologias/css.png" alt="css" title="css">
+                        </li>
+                        <li class="skills__item">
+                            <img class="skills__logo" src="./assets/img/tecnologias/js.png" alt="javascripts"
+                                title="javascripts">
+                        </li>
+                    </ul>
+                    <div class="card__buttons">
+                        <a href="https://imersao-dev-blond.vercel.app" target="_blank">
+                            <button class="btn btn--primary">
+                                <span data-lang="btn__preview">Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/ArturLLopes/imersaoDev" target="_blank">
+                            <button class="btn ">
+                                <span data-lang="btn__repository">Repositório</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects__container">
+                <div class="projects__card card--reverse">
+                    <img class="card__cover" src="/assets/img/projetos/jogoGenius.png" alt="Game" title="Jogo Genius">
+                    <div class="card__body">
+                        <h3 class="card__title" data-lang="card__titleH2"> Jogo de memória de cores e sons</h3>
+                        <p class="card__description" data-lang="card__description">O Jogo Genius (também conhecido como
+                            "Simon")</p>
+                        <ul class="card__list">
+                            <li class="card__item" data-lang="card__item">O jogo começa exibindo uma cor por vez;</li>
+                            <li class="card__item" data-lang="card__item2">O jogador deve clicar nos botões na mesma
+                                ordem exibidas;</li>
+                            <li class="card__item" data-lang="card__item3">A cada rodada, uma nova cor é adicionada;
+                            </li>
+                            <li class="card__item" data-lang="card__item4">O jogo termina se o jogador errar a
+                                sequência.</li>
+                        </ul>
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <img class="skills__logo" src="./assets/img/tecnologias/html.png" alt="html"
+                                    title="html">
+                            </li>
+                            <li class="skills__item">
+                                <img class="skills__logo" src="./assets/img/tecnologias/css.png" alt="css" title="css">
+                            </li>
+                            <li class="skills__item">
+                                <img class="skills__logo" src="./assets/img/tecnologias/js.png" alt="javascripts"
+                                    title="javascripts">
+                            </li>
+                        </ul>
+                        <div class="card__buttons">
+                            <a href="https://arturllopes.github.io/Projeto-jogoGenius/" target="_blank">
+                                <button class="btn btn--primary">
+                                    <span data-lang="btn__preview">Prévia</span>
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </button>
+                            </a>
+                            <a href="https://github.com/ArturLLopes/Projeto-jogoGenius" target="_blank">
+                                <button class="btn ">
+                                    <span data-lang="btn__repository">Repositório</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects__container">
+                    <div class="projects__card">
+                        <img class="card__cover" src="/assets/img/projetos/landingpage.png" alt="landingpage"
+                            title="Landingpage Stranger Things">
+                        <div class="card__body">
+                            <h3 class="card__title">Landingpage Stranger Things</h3>
+                            <p class="card__description" data-lang="card__description3_1">Landingpage interativa</p>
+                            <ul class="card__list">
+                                <li class="card__item" data-lang="card__item5">Fundo com efeitos sonoro;</li>
+                                <li class="card__item" data-lang="card__item6">Botão com efeito de inversão;</li>
+                                <li class="card__item" data-lang="card__item7">Galeria de imagens animada;</li>
+                                <li class="card__item" data-lang="card__item8">Formulário</li>
+                            </ul>
+                            <ul class="skills__list">
+                                <li class="skills__item">
+                                    <img class="skills__logo" src="./assets/img/tecnologias/html.png" alt="html"
+                                        title="html">
+                                </li>
+                                <li class="skills__item">
+                                    <img class="skills__logo" src="./assets/img/tecnologias/css.png" alt="css"
+                                        title="css">
+                                </li>
+                                <li class="skills__item">
+                                    <img class="skills__logo" src="./assets/img/tecnologias/js.png" alt="javascripts"
+                                        title="javascripts">
+                                </li>
+                            </ul>
+
+                            <div class="card__buttons">
+                                <a href="https://arturllopes.github.io/LandingPage-StrangerThings-DIO/" target="_blank">
+                                    <button class="btn btn--primary">
+                                        <span data-lang="btn__preview">Prévia</span>
+                                        <i class="bi bi-arrow-up-right"></i>
+                                    </button>
+                                </a>
+                                <a href="https://github.com/ArturLLopes/LandingPage-StrangerThings-DIO" target="_blank">
+                                    <button class="btn ">
+                                        <span data-lang="btn__repository">Repositório</span>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn--sobre">
+                        <a href="https://github.com/ArturLLopes" target="_blank">
+                            <button class="btn btn--primary">
+                                <span data-lang="btn__repositoryS">Ver todos os Projetos</span>
+                                <i class="bi bi-arrow-up-right"></i>
+
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section id="sobre" class="about">
+        <div class="about__content1">
+            <img class="about__photo" src="/assets/img/avatar/img-avatar.png" alt="">
+            <div class="about__description">
+                <h2 data-lang="about__title">Sobre mim</h2>
+                <p data-lang="about__text">Artur Lages Lopes. Estou redescobrindo a paixão pela programação e
+                    construindo um novo futuro
+                    digital, em constante evolução, expandindo meus horizontes e se adaptando às novas tecnologias da
+                    web, escrevendo um novo capítulo na minha jornada profissional.
+
+                </p>
+                <div class="about__icons">
+                    <i class="bi bi-translate"></i>
+                    <span>Inglês: Intermediário</span>
+                </div>
+                <div class="description__buttons">
+                    <a href="https://www.linkedin.com/in/artur-lopes-010596340/" target="_blank">
+                        <button class="btn btn--primary">
+                            <span data-lang="btn__linkedin">Conecte-se Comigo</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                    </a>
+                    <a href="">
+                        <button class="btn">
+                            <span data-lang="btn__curriculum">Currículo</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="about__content2">
+            <div class="col1">
+                <div class="row1">
+                    <h3 data-lang="about__title2">Formação</h3>
+                    <h4 data-lang="about__subtitle">Web Designer</h4>
+
+                    <div class="about__icons">
+                        <i class="bi bi-bank"></i>
+                        <span>Universidade Castelo Branco</span>
+                    </div>
+                    <span class="destaque" data-lang="about__destaque"> Atualmente</span>
+                    <div class="about__icons">
+                        <i class="bi bi-mortarboard"></i>
+                        <span data-lang="about__subtitle2">Cursos de Desenvolvimento Front-End</span>
+                    </div>
+                </div>
+                <div class="row2">
+                    <h3 data-lang="about__title3">Experiências</h3>
+                    <h4 data-lang="about__subtitle3">Web Designer</h4>
+
+                    <ul class="about__list">
+                        <li class="about__item" data-lang="about__item1">Desenvolvedor Front-End;</li>
+                        <li class="about__item" data-lang="about__item2">Editor de imagens;</li>
+                        <li class="about__item" data-lang="about__item3">Freelancer.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col2">
+                <h3 data-lang="about__title4">Habilidades</h3>
+                <div id="accordion">
+                    <div class="accordion__item active">
+                        <button class="accordion__header start">
+                            <span data-lang="about__title5">Soft Skills</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p data-lang="about__title6">Habilidades comportamentais
+
+                            </p>
+
+                            <div class="habilidade__accordion">
+                                <img class="skills__logo" src="./assets/img/skills/soft-skill/Soft-adaptave.png"
+                                    alt="Adaptável" title="Adaptábilidade">
+
+                                <p data-lang="about__title7"> Enxergar possíveis soluções.
+                                </p>
+                            </div>
+                            <div class="habilidade__accordion">
+                                <img class="skills__logo" src="./assets/img/skills/soft-skill/Soft-colaborativo.png"
+                                    alt="Relacionamentos" title="Postura colaborativa">
+                                <p data-lang="about__title8">Desenvolver bons relacionamentos .</p>
+                            </div>
+                            <div class="habilidade__accordion">
+
+                                <img class="skills__logo" src="./assets/img/skills/soft-skill/Soft-comunicativo.png"
+                                    alt="Comunicação transparente" title="Boa comunicação">
+                                <p data-lang="about__title9">Boa comunicação.</p>
+                            </div>
+                            <div class="habilidade__accordion">
+
+                                <img class="skills__logo" src="./assets/img/skills/soft-skill/Soft-creativo.png"
+                                    alt="Criatividade " title="Pensamento criativo">
+                                <p data-lang="about__title10">Encontrar soluções criativas.</p>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header end">
+                            <span data-lang="about__title11">Hard Skills</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p data-lang="about__title12">Habilidades técnicas
+
+                            </p>
+                            <div class="habilidade__accordion">
+
+                                <img class="skills__logo" src="./assets/img/skills/hard-skill/pcSkil.png"
+                                    alt="Relacionamentos" title="Postura colaborativa">
+
+                                <p data-lang="about__title13">Habilidades com os sitemas operacionais.</p>
+                            </div>
+                            <div class="habilidade__accordion">
+
+                                <img class="skills__logo" src="./assets/img/skills/hard-skill/ia.png"
+                                    alt="Comunicação transparente" title="Boa comunicação">
+
+                                <p data-lang="about__title14">Familiaridade com as IAs.</p>
+                            </div>
+                            <div class="habilidade__accordion">
+
+
+                                <img class="skills__logo" src="./assets/img/skills/hard-skill/dev.png"
+                                    alt="Criatividade " title="Pensamento criativo">
+
+                                <p data-lang="about__title15"> Cursos em diversas areas de desenvolvimento.</p>
+                            </div>
+                            <div class="habilidade__accordion">
+
+                                <img class="skills__logo" src="./assets/img/skills/hard-skill/deign.png"
+                                    alt="Criatividade " title="Pensamento criativo">
+                                <p data-lang="about__title16"> Base como Web Designer.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+    </section>
+
+    <!-- contato -->
+
+    <section id="contato" class="contact">
+        <h2 data-lang="menu__contato">Contate-me</h2>
+        <p data-lang="contact__text">Estou disponível para serviços e novas conexões. Contate-me via
+            e-mail e conecte-se comigo.
+        </p>
+        <ul class="menu menu--social">
+            <li>
+                <a class="menu__link" href="https://github.com/ArturLLopes" target="_blank">
+                    <i class="menu__icon bi bi-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="https://www.linkedin.com/in/artur-lopes-010596340/" target="_blank">
+                    <i class="menu__icon bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+
+        </ul>
+        <a href="arturllopes@gmail.com">
+            <button class="btn btn--primary">
+                <span class="email">arturllopes@gmail.com</span>
+            </button>
+        </a>
+    </section>
+
+
+    <footer>
+        <p>
+            ® 2024. Todos os Direitos Reservado. Desenvolvido por <a
+                href="https://www.linkedin.com/in/artur-lopes-010596340/" target="_blank">Artur L.
+                Lopes</a>
+        </p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/traslation.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,219 @@
+@media (min-width: 768px) {
+    .header {
+        position: fixed;
+        border-bottom: 1px solid var(--border-color);
+        padding: 1rem 6rem;
+        background: var(--primary-bg-color);
+    }
+
+    .nav--mobile {
+        display: none;
+    }
+
+    .header__nav {
+        display: flex;
+    }
+
+    .header__nav,
+    .header__toggle {
+        min-width: 30%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+
+    }
+
+    main,
+    .projects,
+    .about {
+        padding: 8rem 6rem 4rem;
+
+
+    }
+    .contact {
+        padding: 6rem;
+      }
+      .contact p {
+        width: 80%;
+      }
+
+
+    .main__content1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skills {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .skills h2 {
+        font-size: 3rem;
+        width: 60%;
+    }
+
+    footer {
+        margin: 0;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .projects__card {
+        flex-direction: row;
+    }
+
+    .projects__card.card--reverse {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .card__cover {
+        width: 55%;
+    }
+
+    .about {
+        gap: 5rem;
+    }
+
+    .about__content1,
+    .about__content2 {
+        display: grid;
+        grid-template-columns: 34% 60%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+
+    .about__description h2 {
+        text-align: left;
+    }
+
+    .description__buttons {
+        justify-content: flex-start;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+    main {
+        padding: 12rem 6rem 4rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    .main__content1 .btn {
+        width: auto;
+    }
+
+    .skills {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 4rem 6rem;
+
+    }
+
+    .skills h2 {
+        font-size: 3rem;
+        width: 60%;
+    }
+
+    .skills__item {
+
+        width: 6.8rem;
+        height: 6.8rem;
+
+    }
+
+    .skills__logo {
+        width: 5rem;
+    }
+
+    .skills__list {
+        gap: 1rem;
+    }
+
+    .projects__card {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .card__cover {
+        width: 45%;
+
+    }
+
+    .card__title {
+        font-size: 3.25rem;
+
+    }
+
+    .card__description,
+    .card__item {
+        font-size: 1.25rem;
+
+    }
+
+    .card__buttons .btn {
+        width: auto;
+    }
+
+    .card__body .skills__item {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .card__body .skills__logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .header {
+        padding: 1rem 15rem;
+    }
+
+    h1 {
+        font-size: 6.25rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    .menu__text {
+        font-size: 1.25rem;
+    }
+
+
+
+    main {
+        padding: 8rem 6rem 4rem 6rem;
+
+    }
+
+    .skills,
+    .projects,
+    .about {
+
+        padding: 8rem 7rem;
+
+    }
+}
